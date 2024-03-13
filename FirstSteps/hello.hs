@@ -14,3 +14,16 @@ asc n m
 brok :: [Int] -> Int
 brok n = head n
 
+element :: (Eq a) => a -> [a] -> Bool
+element e (x:xs)
+ | xs == [] = False
+ | x == e = True
+ | otherwise  = elem e xs
+
+elementWithListOperations :: (Eq a) => a -> [a] -> Bool
+elementWithListOperations e x
+ | x == [] = False
+ | e == head x = True
+ | otherwise = elem e z
+  where
+    z = tail x
