@@ -5,10 +5,12 @@ public class Test {
         return meinAlter + 1;
     }
 
-    public void aelterWerden(int jahre) {
-        for (int i = 0; i < jahre; i++) {
-            meinAlter++;
+    public int aelterWerden(int jahre) {
+        while (jahre > 0) {
+            {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+            meinAlter+1;
         }
+        return alter;
     }
 
 
